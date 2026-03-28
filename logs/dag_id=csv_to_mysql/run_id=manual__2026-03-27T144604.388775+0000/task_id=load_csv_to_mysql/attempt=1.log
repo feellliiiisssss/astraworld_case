@@ -1,0 +1,10 @@
+{"timestamp":"2026-03-27T14:46:20.222135Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-27T14:46:20.225517Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/csv_to_mysql.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-27T14:46:20.398400Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-03-27T14:46:20.400205Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-03-27T14:46:20.401014Z","level":"info","event":"Current task name:load_csv_to_mysql","logger":"task.stdout"}
+{"timestamp":"2026-03-27T14:46:20.401506Z","level":"info","event":"Dag name:csv_to_mysql","logger":"task.stdout"}
+{"timestamp":"2026-03-27T14:46:22.176792Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":218}
+{"timestamp":"2026-03-27T14:46:22.280925Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-03-27T14:46:22.285902Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-03-27T14:46:22.286741Z","level":"info","event":"Task operator:<Task(PythonOperator): load_csv_to_mysql>","logger":"task.stdout"}

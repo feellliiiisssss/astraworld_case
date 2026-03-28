@@ -1,0 +1,11 @@
+{"timestamp":"2026-03-27T16:53:31.944672Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-27T16:53:31.957370Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/clean_exist_tbl.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-27T16:53:32.253432Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/clean_exist_tbl.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2026-03-27T16:53:33.174678Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-03-27T16:53:33.175883Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-03-27T16:53:33.178311Z","level":"info","event":"Current task name:clean_dob","logger":"task.stdout"}
+{"timestamp":"2026-03-27T16:53:33.179881Z","level":"info","event":"Dag name:clean_exist_tbl","logger":"task.stdout"}
+{"timestamp":"2026-03-27T16:53:33.619388Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":218}
+{"timestamp":"2026-03-27T16:53:33.788527Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-03-27T16:53:33.791724Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-03-27T16:53:33.793878Z","level":"info","event":"Task operator:<Task(PythonOperator): clean_dob>","logger":"task.stdout"}
