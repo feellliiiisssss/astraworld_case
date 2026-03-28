@@ -52,7 +52,7 @@ def clean_after_sales():
 with DAG(
     dag_id="clean_exist_tbl",
     start_date=datetime(2026, 3, 27),
-    schedule="@daily",
+    schedule=None,
     catchup=False,
     tags=["demo"],
 ) as dag:
